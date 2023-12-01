@@ -27,7 +27,7 @@ $(window).bind('resize orientationchange', function() {
 });
 
 var adjustMenu = function() {
-	if (ww < 200) {
+	if (ww < 767) {
 		$("._toggleMenu").css("display", "block");
 		if (!$(".toggleMenu").hasClass("active")) {
 			$("._toggleMenu .nav").hide();
